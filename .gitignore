@@ -1,0 +1,23 @@
+# Ignore all HTML files in the data/messenger directory
+data/facebook/*.html
+
+# Ignore all TXT files in the data/whatsapp directory
+data/whatsapp/*.txt
+
+# Ignore any other generated files or directories for good measure
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+.DS_Store
+.env
+.venv
+.vscode/
+.idea/
+*.swp
+*.swo
+.vscode/
+results/
+data/intermediate_data.json
+data/combined_training_data.json
